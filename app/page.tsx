@@ -30,7 +30,7 @@ export default async function HomePage() {
       <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
         {about()}
       </p>
-      <div className="flex items-start md:items-center my-8 flex-col md:flex-row">
+      {/* <div className="flex items-start md:items-center my-8 flex-col md:flex-row">
         <Image
           alt={name}
           className="rounded-full grayscale"
@@ -63,7 +63,7 @@ export default async function HomePage() {
             {`${views.toLocaleString()} blog views all time`}
           </Link>
         </div>
-      </div>
+      </div> */}
       <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
         {bio()}
       </p>
@@ -73,21 +73,10 @@ export default async function HomePage() {
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/leeerob"
+            href="https://twitter.com/lkstandsfor"
           >
             <ArrowIcon />
             <p className="h-7">follow me on twitter</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://leerob.substack.com"
-          >
-            <ArrowIcon />
-            <p className="h-7">get email updates</p>
           </a>
         </li>
       </ul>
